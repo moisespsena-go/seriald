@@ -114,7 +114,7 @@ func handleRequest(conn net.Conn) {
 }
 
 func main() {
-	if len(os.Args) == 1 {
+	if len(os.Args) == 1 || os.Args[1] == "-h" || os.Args[1] == "--help" {
 		fmt.Println(`Usage ` + os.Args[0] + ` HOST:PORT
 
 Examples:
