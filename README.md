@@ -24,6 +24,12 @@ output:
     ./seriald :5000
     ./seriald localhost:5000
     ./seriald 0.0.0.0:5000
+    
+Run:
+
+```bash
+./seriald localhost:5000
+```
  
 ### Client
 
