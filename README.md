@@ -4,7 +4,7 @@ Serial Port as TCP Server
 ## Installation
 
 ```bash
-go get -u /github.com/moisespsena-go/seriald
+go get -u github.com/moisespsena-go/seriald
 ```
 ## Usage
 
